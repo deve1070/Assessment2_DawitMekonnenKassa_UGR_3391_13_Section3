@@ -2,7 +2,9 @@ nav a:hover {
     background-color:orangered;
     color: white;
   }
-
+nav a:visited{
+    background-color: green;
+}
 
   #firstword{
     color: orangered;
@@ -31,4 +33,12 @@ img{
     list-style-type: none; /* Remove bullet points */
     margin-right: auto;
     font-size: 14px;
+  }
+  /* Styling for navigation links */
+  #bottomlink li {
+    display: inline-block;
+  }
+  #bottomlink a:hover {
+    background-color: white;
+    color: #4CAF50;
   }

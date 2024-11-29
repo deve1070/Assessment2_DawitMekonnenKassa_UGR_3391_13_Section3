@@ -141,15 +141,6 @@ footer{
     
   }
 
-  
-
- 
-
-  /* Styling for navigation links */
-  #bottomlink li {
-    display: inline-block;
-  }
-
   #bottomlink a {
     text-decoration: none;
     color: white;
@@ -158,7 +149,70 @@ footer{
     transition: background-color 0.3s, color 0.3s;
   }
 
-  #bottomlink a:hover {
-    background-color: white;
-    color: #4CAF50;
+.about-page {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  gap: 20px;
+  padding: 20px;
+}
+
+.main-content {
+  flex: 1.5; /* Main content takes more space */
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.aside-content {
+  flex:1.5; /* Aside takes less space */
+  background-color: #f1f1f1;
+  padding: 20px;
+  border-radius: 5px;}
+  .contact-page {
+    display: flex;
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .contact-form {
+    flex: 2; /* Form takes more space */
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .contact-form label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  .contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .aside-element {
+    flex: 1; /* Aside takes less space */
+    background-color: #f1f1f1;
+    padding: 20px;
+    border-radius: 5px;
   }
