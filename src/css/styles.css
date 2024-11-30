@@ -79,20 +79,5 @@ img{
     background-color: #4CAF50;
     transition: background-color 0.3s, color 0.3s;
   }
-  /* General Typography */
-.photo-gallery h2 {
-    font-size: 1.5rem;
-    margin-bottom: 20px;
-    color: #333; /* Optional heading color */
-  }
   
-  /* Image Styling */
-  .gallery-images img {
-    width: 100%; /* Images fill their container */
-    max-width: 300px; /* Restrict max size */
-    aspect-ratio: 1; /* Maintain square aspect ratio */
-    object-fit: cover; /* Crop images to fit within the square without distortion */
-    border-radius: 5px; /* Optional rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
-  }
   

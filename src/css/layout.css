@@ -257,36 +257,6 @@ footer{
   }
 }
 /* General Styles */
-.image-grid {
-  max-width: 1200px;
-  margin: 0 auto;
-  text-align: center;
-  padding: 20px;
-  background-color: #f9f9f9; /* Optional: a light background for contrast */
-}
-
-/* Style for the heading */
-.image-grid h2 {
-  font-size: 1.5rem;
-  margin-bottom: 20px;
-}
-
-/* Grid layout for images */
-.gallery-images {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Responsive grid */
-  gap: 10px;
-  justify-content: center; /* Center the grid */
-}
-
-/* Style individual images */
-.gallery-images img {
-  width: 100%; /* Ensure images fit their grid cell */
-  aspect-ratio: 1; /* Make them square */
-  object-fit: cover; /* Ensure the image fits within the square without distortion */
-  border-radius: 5px; /* Optional rounded corners */
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for better aesthetics */
-}
 
   
  
